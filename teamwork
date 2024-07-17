@@ -54,8 +54,14 @@ public class Calculator {
         scanner.close();
     }
  
+
    // Method to subtract second number from first
     public static double subtract(double a, double b) {
         return a - b;
     }
+
+public static double divide(double a, double b) {
+        return a / b;
+    }
+
 }
